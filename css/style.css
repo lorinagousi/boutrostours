@@ -313,7 +313,7 @@ a .information {
 }
 .quote img {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .quote h2 {
     text-align: center;
@@ -335,6 +335,7 @@ a .information {
 }
 .map img {
     width: 100%;
+    margin-bottom: 100px;
 }
 
 }
@@ -1353,4 +1354,78 @@ a.bx-next i {
 }
 .moreInfo button {
     margin-top: 10px;
+}
+.more-pack {
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+    border: 2px solid #ff9429;
+    border-radius: 10px;
+    padding: 20px 15px;
+    color: #ff9429;
+    background-color: #fff;
+    font-size: 22px;
+    transition: all 0.2s;
+}
+.more-pack:hover {
+    color: #fff;
+    background-color: #ff9429;
+}
+
+/*Newsletter*/
+.newsletter h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #ff9429;
+}
+.info-new {
+    margin: 0 auto;
+}
+.info-new input[type="Text"],
+.info-new input[type="Email"] {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+    border: 0;
+    border-bottom: 1px solid orange;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #c7a871;
+}
+.plus {
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-left: 1%;
+    font-size: 60px;
+    color: #03a5af;
+}
+form .btn-new {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px
+}
+form .btn-new button {
+    width: 200px;
+    color: #fff;
+    padding: 10px;
+    background-color: #03a5af;
+    font-size: 22px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.22);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+form .btn-new button:hover {
+    color: #03a5af;
+    background-color: #fff;
+}
+
+/*Footer*/
+footer {
+    background-color: #0c4546;
 }
