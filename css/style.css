@@ -258,6 +258,7 @@ a .information {
     font-weight: 600;
     float: left;
     padding: 20px 2%;
+    font-size: 15px
 }
 .orange {
     background-color: rgba(255, 148, 41, 0.88);
@@ -303,7 +304,7 @@ a .information {
     border-radius: 10px;
     height: 250px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -1380,26 +1381,29 @@ a.bx-next i {
     font-size: 48px;
     color: #ff9429;
 }
+.new-dash {
+    width: 45%;
+    float: left;
+    text-align: center;
+}
 .info-new {
+    max-width: 700px;
     margin: 0 auto;
 }
 .info-new input[type="Text"],
 .info-new input[type="Email"] {
-    width: 32%;
-    float: left;
-    margin-left: 1%;
     border: 0;
     border-bottom: 1px solid orange;
     text-align: center;
     font-size: 18px;
     text-transform: uppercase;
     color: #c7a871;
+    background-color: transparent;
 }
 .plus {
-    width: 32%;
+    width: 10%;
     float: left;
     text-align: center;
-    margin-left: 1%;
     font-size: 60px;
     color: #03a5af;
 }
@@ -1427,5 +1431,69 @@ form .btn-new button:hover {
 
 /*Footer*/
 footer {
+    position: absolute;
+    width: 100%;
     background-color: #0c4546;
+}
+.footer-list {
+    margin-top: 82px;
+    width: 40%;
+    float: left;
+}
+.list-more {
+    margin-left: 5%;
+    max-width: 200px;
+    display: -webkit-inline-box;
+    line-height: 20px;
+    font-size: 12px;
+}
+.list-more ul {
+    padding-right: 10px;
+}
+.list-more ul li {
+    list-style-type: none;
+}
+.list-more ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 20px;
+    transition: all 0.2s;
+}
+.list-more ul li a:hover {
+    color: #ff9429;
+}
+.logo-socials {
+    width: 20%;
+    float: left;
+    margin-left: 2%;
+}
+.footer-logo figure img {
+    max-width: 200px;
+    position: relative;
+    top: 85px;
+    left: 25px;
+}
+.contact {
+    width: 36%;
+    float: left;
+    margin-left: 2%;
+}
+.contact h3 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.contact h4 {
+    color: #fff;
+    font-weight: 400;
+}
+.contact-athens {
+    display: inline-block;
+}
+.contact-solink {
+    display: inline-block;
+    text-align: right;
+    margin-left: 60px;
 }
